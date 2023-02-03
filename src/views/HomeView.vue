@@ -1,18 +1,25 @@
 <template>
-  <div class="home">
-  <input type="text" v-model="Tanmay">
-  <h1>HelloWorld {{user}}</h1>
+  <div>
+    <h1>Lifecycle Hooks</h1>
   </div>
 </template>
 
 <script>
-export default{
-data() {
-  return {
-    user: "Tanmay"
+export default {
+  data(){
+    return {
+      counter : 0
     }
   },
-  vmethod
+  beforeCreate(){
+
+  },
+  created(){
+
+  }
 }
 </script>
 
+<style>
+
+</style>
