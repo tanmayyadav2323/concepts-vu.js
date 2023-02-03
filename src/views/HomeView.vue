@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <input type="text" v-model="Tanmay">
+  <h1>HelloWorld {{user}}</h1>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
+export default{
+data() {
+  return {
+    user: "Tanmay"
+    }
+  },
+  vmethod
 }
 </script>
+
